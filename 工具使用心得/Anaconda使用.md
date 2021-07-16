@@ -70,4 +70,3 @@ python3 check_hostname requires server_hostname
 
 
 
-![QQ截图20210501194049](https://raw.githubusercontent.com/Rainiwalk/Rain_image/main/2021/20210716202847.png)
