@@ -72,3 +72,27 @@ PEP 8: E302 expected 2 blank lines, found 1
 
 **标准认为，两个类之间最好是两个空行**
 
+
+
+#### Python多变量同时赋值
+
+
+
+我们知道在C++或Java中大多是这个格式。
+
+```C++
+int a=5,b=4,c=3;
+```
+
+但在Python中是这样：
+
+```python
+a,b,c = 5,4,3		# 每个变量与它的值一一对应
+
+# 其实这种机制也在一定程度上展现了一种代码美
+# 其他的东西也是这样定义
+list0,list1,list2 = [],[],[]		#这样就很醒目
+list0,list1,list2 = list0[:],list1[:],list2[:]
+
+```
+
